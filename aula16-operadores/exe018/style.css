@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: rgb(29, 31, 32);
+}
+h1 {
+    color: azure;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section{
+    
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    color: azure;
+    background: rgb(44, 43, 43);
+    box-shadow: 1px 1px 10px;
+    
+}
+
+select {
+    background-color: rgb(195, 201, 201);
+    margin-top: 30px;
+    width: 150px;
+}
+#btn {
+    margin-top: 3px;
+    margin-top: 15px;
+}
+#res {
+    text-align: center;
+}
+footer {
+    color: azure;
+    margin-top: 50px;
+    text-align: center;
+}

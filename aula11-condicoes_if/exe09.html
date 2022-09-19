@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaçoes Internacionais</title>
+    <style>
+    
+        body {
+            background: rgb(39, 41, 40);
+            color: rgb(199, 194, 194);
+        }
+        h1 {
+            font-size: 26pt;
+            text-align: center;
+            margin-top: 5%;
+        }
+        p {
+            text-align: center;
+        }
+        #res {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual o seu país?</h1>
+    <p>De onde você fala:
+        <input type="text" name="origem" id="origem">
+        <input type="button" value="Enviar" onclick="saudar()">
+    </p>
+
+    <div id="res">
+    </div>
+    <script>
+        
+        var pais = window.document.getElementById('origem')
+        var resposta = window.document.getElementById('res')
+        
+        function saudar(){
+            
+            var pais = (origem.value)
+            if(pais != 'Brasil'){
+                resposta.innerHTML = `Você é Estrangeiro! Digitou: ${pais}`
+            }else{
+                resposta.innerHTML = `<p>Você é Brasileiro!</p>`
+            }
+        }
+    </script>
+</body>
+</html>

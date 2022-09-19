@@ -1,0 +1,23 @@
+body {
+    background: rgb(39, 41, 40);
+    color: white;
+}
+header{
+    font-size: 26pt;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+div#area {
+    font: normal 15pt Arial;
+    text-align: center;
+    background: #c43535;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+    margin-top: 25%;
+
+     
+}

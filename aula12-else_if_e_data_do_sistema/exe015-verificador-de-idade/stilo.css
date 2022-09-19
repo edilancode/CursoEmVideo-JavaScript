@@ -1,0 +1,36 @@
+body {
+    background: rgb(5, 27, 49);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    text-align: center;
+    color: rgba(245, 248, 248, 0.858);
+    padding-bottom: 30px;
+    text-shadow: 5px 5px 10px rgba(6, 20, 17, 0.592);
+    
+
+}
+
+section {
+background: rgb(30, 66, 88);
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 3px 3px 10px rgba(10, 29, 25, 0.592);
+color: aliceblue;
+}
+input {
+    box-shadow: 3px 3px 10px rgba(9, 34, 28, 0.592);
+}
+
+footer {
+text-align: center;
+font-style: italic;
+color: rgba(247, 254, 254, 0.714);
+font-size: 13pt;
+padding-top: 4%;
+text-shadow: 5px 5px 10px rgba(4, 243, 191, 0.592);
+}

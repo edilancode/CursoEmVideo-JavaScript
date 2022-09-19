@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Document Object Model (DOM)</h1>
+    <h2>Pimeiros passos com DOM</h2>
+    <P>Aqui vai o resultado</P>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg" onclick="changeColor">Clique em mim</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p'[1])
+        var d = window.document.getElementById('msg')
+        
+        
+        d.addEventListener('click', changeColor)
+
+        function changeColor(){
+            
+            d.style.background = 'black'
+            p1.textContent = "Você mudou a cor de fundo de um objeto"
+            console.log(p1.textContent)
+        }
+        
+        
+        
+
+    </script>
+    
+</body>
+</html>
